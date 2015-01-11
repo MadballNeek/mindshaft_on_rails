@@ -11,8 +11,6 @@ html {
 body {
   font-family: 'Destroy', sans-serif;
   padding-top: 10px;
-  background: black;
-  background-size: cover;
 }
 
 section {
@@ -24,6 +22,10 @@ section {
   h1 {
     margin-bottom: 10px;
   }
+}
+
+.header {
+  background: black;
 }
 
 .game-title-outer {
