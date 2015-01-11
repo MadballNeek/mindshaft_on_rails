@@ -9,8 +9,13 @@
 <body>
   <%= render 'layouts/header' %>
   <div class="container">
-    <%= render 'layouts/landing' %>
-    <%= yield %>
+    <div class="col-lg-11 landing-body">
+      <div class="col-centered">
+        <%= render 'layouts/landing' %>
+        <%= render 'layouts/navbar' %>
+        <%= yield %>
+      </div>
+    </div>
   </div>
 </body>
 </html>

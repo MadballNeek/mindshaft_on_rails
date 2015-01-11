@@ -18,6 +18,25 @@ section {
   overflow: auto;
 }
 
+a {
+  color: gray;
+}
+
+/* typography */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* custom classes */
+
 .col-centered {
   float: none;
   margin: 0 auto;
@@ -32,6 +51,11 @@ section {
 
 .header {
   background: black;
+}
+
+/* Override min-height property of Bootstrap navbar */
+.navbar {
+  min-height: 0px;
 }
 
 .game-title-outer {
@@ -58,17 +82,4 @@ section {
   color: #919499;
   padding: 2em 0 2em 0;
   font-size: 1.1em;
-}
-
-/* typography */
-h1, h2, h3, h4, h5, h6 {
-  line-height: 1.1;
-  font-weight: 700;
-}
-
-h1 {
-  font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
-  text-align: center;
 }
