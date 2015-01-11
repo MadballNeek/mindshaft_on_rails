@@ -11,10 +11,16 @@ html {
 body {
   font-family: 'Destroy', sans-serif;
   padding-top: 10px;
+  background: #f3f3f3 url('images/overlay.png') repeat;
 }
 
 section {
   overflow: auto;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
 }
 
 .center {
@@ -39,6 +45,16 @@ section {
   position: absolute;
   width: 100%;
   top: 25%;
+}
+
+.landing-body {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2em 0 2em 0;
+}
+
+.content {
+  width: 48em;
 }
 
 /* typography */
