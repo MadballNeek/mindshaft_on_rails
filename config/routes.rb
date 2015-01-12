@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  root 'mindshaft_pages#home'
+  root 'mindshaft_pages#about'
 
-  get 'mindshaft_pages/home'
+  get 'mindshaft_pages/about'
   
   get 'about' => 'mindshaft_pages#about'
   get 'features' => 'mindshaft_pages#features'

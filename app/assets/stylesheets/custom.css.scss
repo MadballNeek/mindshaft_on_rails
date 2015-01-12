@@ -11,7 +11,6 @@ html {
 body {
   font-family: 'Destroy', sans-serif;
   padding-top: 10px;
-  background: #f3f3f3 url('images/overlay.png') repeat;
 }
 
 section {
@@ -20,10 +19,6 @@ section {
 
 a {
   color: gray;
-}
-
-a:hover {
-  color: red;
 }
 
 /* typography */
@@ -55,6 +50,7 @@ h1 {
 
 .header {
   background: black;
+  border-bottom: 1px solid #5b7f91;
 }
 
 /* Override min-height property of Bootstrap navbar */
@@ -70,15 +66,18 @@ h1 {
   color: red;
   font-size: 5em;
   letter-spacing: 0.4em;
-  position: absolute;
   width: 100%;
   top: 25%;
 }
 
-.landing-body {
+.col-body {
   text-transform: uppercase;
   text-align: center;
   padding: 2em 0 2em 0;
+}
+
+.landing-body {
+  background: url("images/hell_top.png") repeat;
 }
 
 .navbar-body {
@@ -95,11 +94,16 @@ h1 {
 /* center navbar options */
 .navbar .nav,
 .navbar .nav > li {
-    float: none;
-    display: inline-block;
-    vertical-align: top;
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+  background: black;
 }
 
- .navbar-inner {
-    text-align: center;
+.navbar-inner {
+  text-align: center;
+}
+
+.navbar-inverse {
+  background: black;
 }
