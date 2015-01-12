@@ -10,7 +10,6 @@ html {
 
 body {
   font-family: 'Destroy', sans-serif;
-  background: #222;
   padding-top: 10px;
 }
 
@@ -26,7 +25,6 @@ a {
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   font-weight: 700;
-  color: white;
 }
 
 h1 {
@@ -69,10 +67,6 @@ h1 {
   top: 25%;
 }
 
-.landing-body {
-  background: white;
-}
-
 .col-body {
   text-transform: uppercase;
   text-align: center;
@@ -83,10 +77,10 @@ h1 {
 }
 
 .content {
-  width: 30em;
   color: #919499;
   padding: 2em 0 2em 0;
   font-size: 1.1em;
+  text-align: center;
 }
 
 /* center navbar options */
@@ -104,4 +98,33 @@ h1 {
 
 .navbar-inverse {
   background: black;
+}
+
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0px auto;
+}
+
+.landing {
+  background: #222;
+  width: 100%;
+  float: left;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  h2 {
+    color: white;
+  }
+}
+
+.about {
+  background: #0F1F3D;
+  width: 100%;
+  float: left;
+  border-top: 1px solid white;
+  border-bottom: 1px solid darkred;  
 }
