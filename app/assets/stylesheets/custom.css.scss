@@ -36,44 +36,16 @@ h1 {
 
 /* custom classes */
 
-.col-centered {
-  float: none;
-  margin: 0 auto;
-}
-
-.center {
-  text-align: center;
-}
-
 .header {
+  text-align: center;
   background: black;
   border-bottom: 1px solid darkred;
-}
-
-/* Override min-height property of Bootstrap navbar */
-.navbar {
-  min-height: 0px;
-}
-
-.game-title-outer {
-  position: relative;
 }
 
 .game-title-inner {
   color: red;
   font-size: 5em;
-  letter-spacing: 0.4em;
-  width: 100%;
-  top: 25%;
-}
-
-.col-body {
-  text-transform: uppercase;
   text-align: center;
-}
-
-.navbar-body {
-  padding: 2em 2em 1em 2em;
 }
 
 .content {
@@ -83,30 +55,8 @@ h1 {
   text-align: center;
 }
 
-/* center navbar options */
-.navbar .nav,
-.navbar .nav > li {
-  float: none;
-  display: inline-block;
-  vertical-align: top;
-  background: black;
-}
-
-.navbar-inner {
-  text-align: center;
-}
-
-.navbar-inverse {
-  background: black;
-}
-
-/* centered columns styles */
-.row-centered {
-  text-align:center;
-}
-
 .wrapper {
-  width: 960px;
+  width: 50%;
   margin: 0px auto;
 }
 
@@ -126,5 +76,5 @@ h1 {
   width: 100%;
   float: left;
   border-top: 1px solid white;
-  border-bottom: 1px solid darkred;  
+  border-bottom: 1px solid white;
 }
