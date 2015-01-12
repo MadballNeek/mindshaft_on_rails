@@ -1,2 +1,10 @@
-
-<h3>MindshaftPages#home</h3>
+<%= render 'layouts/header' %>
+<div class="landing">
+    <%= render 'layouts/landing' %>
+</div>
+<div class="about">
+    <%= render 'layouts/about' %>
+</div>
+<div class="media_">
+    <%= render 'layouts/media', :screenshots => @screenshots, :gifs => @gifs %>
+</div>

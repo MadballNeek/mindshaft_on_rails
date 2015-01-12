@@ -1,0 +1,15 @@
+<div class="wrapper">
+  <div class="content">
+  <!--  <div class="column">-->
+  <!--    <iframe width="560" height="315" src="//www.youtube.com/embed/oiCyhSbrsTQ" frameborder="0" allowfullscreen></iframe>-->
+  <!--  </div>-->
+  <!--  <div class="column">-->
+  <!--    <iframe width="560" height="315" src="//www.youtube.com/embed/Yfjse77cjXk" frameborder="0" allowfullscreen></iframe>-->
+  <!--  </div>-->
+    <% @screenshots.each do |image| %>
+      <div class="column highlight highlight-one">
+        <%= link_to image_tag("dws/screenshots/#{image.split('/').last}"), image_path("dws/screenshots/#{image.split('/').last}"), { 'data-lightbox' => 'screenshots', :class => 'image image-full' } %>
+      </div>
+    <% end %>
+  </div>
+</div>

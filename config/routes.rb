@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'mindshaft_pages#about'
+  root 'mindshaft_pages#home'
 
   get 'mindshaft_pages/about'
   
